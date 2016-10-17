@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 该文件是OtherActivity.java文件所使用的布局文件 -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+	    >
+
+		    <Button
+		        android:id="@+id/button_Alarm"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+			    android:textSize="16sp"
+			    android:text="演示专用：5秒钟闹钟"/>
+		
+		    <Button
+		        android:id="@+id/button_Push"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+			    android:textSize="16sp"
+			    android:text="演示专用：霓虹灯效果"/>
+		    
+			<LinearLayout  
+		        android:orientation="horizontal"      
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		                  
+			    <Button
+			        android:id="@+id/button_breath"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="16sp"
+			        android:text="演示专用：呼吸灯效果"
+			        />
+		    </LinearLayout>		
+				
+
+	        
+	        <TextView
+	            android:id="@+id/AmoMcu_taobao"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#000000"
+	            android:textColor="#00ff00"
+	            android:gravity="center"
+	            android:textStyle="bold"      
+	            android:text="演示专用：调色盘"     
+	            android:textSize="16sp"/>
+	        
+	        <LinearLayout 
+	            android:orientation="horizontal"      
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textSize="10dp"
+	                android:textColor="#00ff00"
+	                android:text="Green"/>
+	            <SeekBar 
+	            	android:id="@+id/seekbarG"
+	            	android:layout_width="fill_parent"
+	            	android:layout_height="wrap_content"/> 
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:orientation="horizontal"      
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textSize="10dp"
+	                android:textColor="#ff0000"
+	                android:text="Red   "/>
+
+	            <SeekBar
+	                android:id="@+id/seekbarR"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" />
+ 
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:orientation="horizontal"      
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textSize="10dp"
+	                android:textColor="#0000ff"
+	                android:text="Blue  "/>
+	            <SeekBar 
+	            	android:id="@+id/seekbarB"
+	            	android:layout_width="fill_parent"
+	            	android:layout_height="wrap_content"/> 
+	        </LinearLayout>
+	        
+	        <TextView
+	            android:id="@+id/colorShow"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="000000"
+	            android:textColor="#ffffff" />
+
+	        
+	        
+		</LinearLayout>
+
+		
+		
